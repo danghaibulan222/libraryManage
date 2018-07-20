@@ -1,0 +1,78 @@
+
+body{
+	padding-top: 70px;
+	background:#E0E0E0;
+	font-family: "FontAwesome","Arial","Microsoft YaHei","宋体",sans-serif;
+	font-size: 14px;
+    margin-bottom: 60px;
+
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.container {
+    max-width: 970px;
+}
+
+.media{
+	margin-top: 10px;
+}
+.panel-default .topic-detail-heading{
+    background-color: #fff;
+}
+
+.clear{
+    float: none;
+}
+
+
+/*header*/
+.navbar-default .navbar-brand  {
+    color: #fff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+      color: #fff;
+      background-color: #11547f;
+}
+.navbar-default {
+    background-color: #0575bd;
+    border: none;
+    margin-bottom: 30px;
+}
+.navbar-default .navbar-nav >li >a, .navbar-brand {
+    padding: 18px;
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 300;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: #1b6595;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+/*二级菜单对齐*/
+.navbar-right .dropdown-menu {
+    right: 0;
+    left: 0;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+
